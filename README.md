@@ -10,3 +10,5 @@ python app.py
 
 
 ## This Project is implemented using Flask
+
+## Deployesd on Heroku
