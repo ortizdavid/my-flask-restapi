@@ -9,7 +9,7 @@ from resources.item import Item, ItemList
 
 
 app = Flask(__name__)
-app.config['SQLALCHEMY_DATABASE_URI'] = os.environ.get('DATABASE_URL', 'sqlite://data.db')
+app.config['SQLALCHEMY_DATABASE_URI'] = os.environ.get('DATABASE_URL', 'postgres://rypfziofwofqkb:e263885be862e8eabe2ae1da237168ee4c3d3ca44eb393e481a6b511b1ab300e@ec2-35-175-68-90.compute-1.amazonaws.com:5432/d8g5ettirsctco')
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 app.secret_key = 'ortiz'
 
